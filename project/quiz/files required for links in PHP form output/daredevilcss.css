@@ -1,0 +1,365 @@
+
+body{
+	background-image: url("bg2.jpg");
+	background-color:black;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin-top:-3%;
+	font-family:Verdana,Arial,sans-serif;
+	background-position:center;
+}
+
+body,html{
+	color:white;
+	margin-left:2%;
+	margin-right:2%;
+	font-size:1.2vw;
+}
+		
+img{
+	position:relative;
+	max-width:20vw;
+	left:-3%;
+	top:6vw;
+}
+
+img.logo{
+	left:0.0vw;
+}
+
+a{text-decoration:none;  color: inherit;}
+
+#menu ul {
+  list-style-type:none;
+  
+}
+
+#menu li {
+  float: right;
+  padding: 1.5% 2%;
+  margin-right:8%;
+  text-align:center;
+  margin-bottom:10px;
+  position:relative;
+  top:-3vw;
+}
+
+#menu li:hover {
+  background-color: #5e1214;
+}
+
+#menu a {
+	font-size: 1.3em;
+}
+
+#menu .subitems {
+  background-color: darkred;
+  padding: 0px;
+  display: none;
+  line-height:1.8vw;
+  position:absolute;
+  width:190%;
+  left:0;top:100%;
+  z-index:100;
+  -webkit-transition: height 0.3s ease-in;
+  font-family:sans-serif;
+  
+}
+
+#menu .subitems li {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom:3px;
+  padding-top:2px;
+  float: none;
+  font-size:0.7rem;
+  position:relative;
+  top:0.0vw;
+}
+
+#menu .subitems li:hover{
+	font-weight:bold;
+}
+
+ul.subitems li:nth-child(odd){
+	color:black;
+}
+
+#menu #tvshow:hover .subitems {
+  display: block;
+}
+
+#menu #movies:hover .subitems {
+  display: block;
+}
+
+h1{
+	font-size:2rem;
+	color:darkred;
+}
+
+ul.cast{
+	line-height:7vw;
+	margin-left:3%;
+	
+}
+
+ul.cast li{
+	padding-left:20px;
+}
+
+#matt{
+	list-style-image:url("cast/matt.jpg");
+}
+#fisk{
+	list-style-image:url("cast/fisk.jpg");
+}
+#fog{
+	list-style-image:url("cast/fog.jpg");
+}
+#page{
+	list-style-image:url("cast/page.jpg");
+}
+#royce{
+	list-style-image:url("cast/royce.jpg");
+}
+#jon{
+	list-style-image:url("cast/jon.jpg");
+}
+
+
+img[title]{
+	width:22vw;
+	margin-left:2%;
+	postion:relative;
+	display:block;
+	left:0.5vw;
+	top:16.5vw;
+}
+
+#trailervideo{
+	width:52vw;
+	position:relative;
+	left:22.4vw;
+	z-index:1;
+	object-fit:cover;
+	bottom:13.1vw;
+}
+
+#syn{
+	font-size:1.1rem;
+	font-family:Verdana,Arial,serif;
+}
+
+#abc{
+	color:darkred;
+	font-size:2.7rem;
+}
+
+ul.rate{
+	list-style:none;
+	line-height:4vw;
+}
+
+ol#watch{
+	line-height:4vw;
+}
+
+ol#watch li{
+	padding-left:2vw;
+}
+
+ol#watch li:hover{
+	font-weight:bold;
+}
+
+footer{
+	font-size:1.5rem;
+	height:20%;
+}
+
+#footp2{
+	float:right;
+}
+
+#footp1{
+	float:left;
+	position:relative;
+	right:2.5vw;
+}
+
+#footerul{
+	list-style-type:none;
+	clear:both;
+}
+
+footer a{text-decoration:none;color:inherit;}
+footer a:hover{font-weight:bold;}
+
+
+div#rating{
+	margin-left:2.5vw;
+	margin-top:-5vw;
+}
+
+.ratingstar{
+	max-width:3vw;
+}
+
+input#ratebtn{
+	position:relative;
+	top:9vw;
+	width:5vw;
+	height:2.5vw;
+	left:-2.5vw;
+	background-color:black;
+	color:white;
+	border-radius:0.5vw;
+	border:0.3px solid white;
+	box-shadow:0.5px 0.5px 0.5px;
+	-webkit-transition-duration: 0.3s;
+	transition-duration:0.3s;
+	font-size:1rem;
+}
+
+input#ratebtn:hover{
+	background-color:white;
+	color:red;
+	border:0.3px solid red;
+}
+
+input#ratebtn:focus{
+	outline:0;
+}
+
+input.season{
+	position:relative;
+	top:3vw;
+	background-color:black;
+	padding:0.7vw;
+	border:0.05vw white solid;
+	color:white;
+	border-radius:0.5vw;
+	font-size:1rem;
+	box-shadow:0.5px 0.5px 0.5px;
+	-webkit-transition-duration: 0.3s;
+	transition-duration:0.3s;
+}
+
+#btn1{
+	float:left;
+	margin-left:10vw;
+}
+
+#btn2{
+	float:right;
+	margin-right:10vw;
+}
+
+input.season:focus{
+	outline:0;
+}
+
+input.season:active{
+	box-shadow:2px 2px 5px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100vw;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index:100;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index:100;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.ssimg{
+	position:relative;
+	top:-0.1vw;
+	left:12vw;
+	max-width:70vw;
+	z-index:1;
+}
+
+h5{
+	color:darkred;
+	font-size:1.2rem;
+}
+
+div#ep1{
+	display:none;
+}
+
+div#ep2{
+	display:none;
+}
+
+h1#eph{
+	display:none;
+}
