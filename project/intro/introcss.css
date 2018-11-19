@@ -153,6 +153,10 @@ li a:hover {
     color: red;
 }
 
+.menu p {
+  color: white;
+}
+
 .text-info {
   color: #676667;
   font-size: 11px;
