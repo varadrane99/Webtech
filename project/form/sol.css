@@ -1,0 +1,23 @@
+body {
+	background-position: center;
+	background-image: url("pic.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'Rubik', sans-serif;
+	font-size: 26px;
+	color: white;
+}
+
+a{
+    background-color: rgba(64, 65, 68 ,0.5);
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: yellow;
+    color: red;
+}
